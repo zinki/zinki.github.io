@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head><!-- hexo injector head_begin start -->
-<script src="/config.26de30af2be8c1548045.js"></script>
+<script src="/config.73ab98f7aca869f513e9.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
 <title>关于数据库 - 个人博客</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<link rel="canonical" href="https://github.com/zinki/2019/10/05/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/">
+<link rel="canonical" href="https://zinki.github.io/2019/10/05/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="SQL标准中规定的RR并不能消除幻读，但是MySQL的RR可以，靠的就是next-key lock，而next-key lock区别于普通行锁的核心，就是GAP锁。 Next-Key锁由行锁 + Gap锁组成。 GAP(间隙)锁的中心思想，就是不仅对第一次查询查出来的记录加锁，而且对查询条件这个范围加锁，从而避免了幻读。 间隙锁是对索引记录中的一段连续区域的锁；当使用类似 SELECT * FRO">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于数据库">
-<meta property="og:url" content="https://github.com/zinki/2019/10/05/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/index.html">
+<meta property="og:url" content="https://zinki.github.io/2019/10/05/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/index.html">
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="SQL标准中规定的RR并不能消除幻读，但是MySQL的RR可以，靠的就是next-key lock，而next-key lock区别于普通行锁的核心，就是GAP锁。 Next-Key锁由行锁 + Gap锁组成。 GAP(间隙)锁的中心思想，就是不仅对第一次查询查出来的记录加锁，而且对查询条件这个范围加锁，从而避免了幻读。 间隙锁是对索引记录中的一段连续区域的锁；当使用类似 SELECT * FRO">
 <meta property="og:locale">

@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head><!-- hexo injector head_begin start -->
-<script src="/config.26de30af2be8c1548045.js"></script>
+<script src="/config.73ab98f7aca869f513e9.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
 <title>堆外内存 - 个人博客</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<link rel="canonical" href="https://github.com/zinki/2018/05/11/%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98/">
+<link rel="canonical" href="https://zinki.github.io/2018/05/11/%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="堆外内存是把内存对象分配在Java虚拟机的堆以外的内存，这些内存直接受操作系统管理（而不是虚拟机），这样做的结果就是能够在一定程度上减少垃圾回收对应用程序造成的影响。  定义 创建Java.nio.DirectByteBuffer时分配的内存。  优缺点 优点： 提升了IO效率（避免了数据从用户态向内核态的拷贝）；减少了GC次数（节约了大量的堆内内存）。 缺点：分配和回收堆外内存比分配和回收堆内存">
 <meta property="og:type" content="website">
 <meta property="og:title" content="堆外内存">
-<meta property="og:url" content="https://github.com/zinki/2018/05/11/%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98/index.html">
+<meta property="og:url" content="https://zinki.github.io/2018/05/11/%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98/index.html">
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="堆外内存是把内存对象分配在Java虚拟机的堆以外的内存，这些内存直接受操作系统管理（而不是虚拟机），这样做的结果就是能够在一定程度上减少垃圾回收对应用程序造成的影响。  定义 创建Java.nio.DirectByteBuffer时分配的内存。  优缺点 优点： 提升了IO效率（避免了数据从用户态向内核态的拷贝）；减少了GC次数（节约了大量的堆内内存）。 缺点：分配和回收堆外内存比分配和回收堆内存">
 <meta property="og:locale">
